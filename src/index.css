@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm neutrals - cream and soft beige backgrounds */
+  --color-surface: oklch(96% 0.015 75);
+  --color-surface-alt: oklch(92% 0.02 70);
+  
+  /* Rich dark brown text - warm and readable */
+  --color-ink: oklch(25% 0.025 50);
+  --color-ink-muted: oklch(50% 0.02 55);
+  
+  /* Subtle warm border color */
+  --color-line: oklch(85% 0.02 65);
+  
+  /* Forest green accent - earthy and natural */
+  --color-accent: oklch(55% 0.12 150);
+  --color-accent-strong: oklch(42% 0.14 145);
+  
+  /* Secondary warm brown accent - wood tones */
+  --color-wood: oklch(58% 0.08 55);
+  --color-wood-dark: oklch(40% 0.07 50);
+  
+  /* Soft sage green for subtle highlights */
+  --color-sage: oklch(72% 0.06 140);
+  --color-sage-muted: oklch(82% 0.04 135);
+  
+  /* Warm terracotta for CTAs and highlights */
+  --color-terracotta: oklch(62% 0.15 35);
+  --color-terracotta-dark: oklch(48% 0.16 32);
+  
+  --font-sans: system-ui, -apple-system, sans-serif;
+}
