@@ -90,6 +90,80 @@ const translations = {
           avatar: null
         }
       ]
+    },
+    faq: {
+      kicker: 'Gyakori kérdések',
+      title: 'Kérdésed van? Itt a válasz!',
+      subtitle: 'Minden, amit tudnod kell a foglalás és a tartózkodás előtt',
+      contactText: 'Nem találod a választ? Lépj velünk kapcsolatba!',
+      contactLabel: 'Írj nekünk',
+      contactHref: 'mailto:info@vendegház.hu',
+      items: [
+        {
+          emoji: '📅',
+          question: 'Hogyan tudok foglalni?',
+          answer: 'Foglalni telefonon vagy e-mailben tudsz. Keress minket bizalommal, és segítünk kiválasztani a számodra legmegfelelőbb időpontot.'
+        },
+        {
+          emoji: '🕐',
+          question: 'Mikor van a bejelentkezés és a kijelentkezés?',
+          answer: 'Bejelentkezés 15:00-tól, kijelentkezés 11:00-ig. Ha más időpont kell, egyeztess velünk előre, igyekszünk rugalmasan kezelni a kéréseket.'
+        },
+        {
+          emoji: '🐕',
+          question: 'Vihetek háziállatot?',
+          answer: 'Igen, háziállatok szeretettel vártak! Kérjük, előzetesen jelezd, hogy négylábú társaddal érkezel, és gondoskodj róla, hogy ne károsítsa a bútorokat.'
+        },
+        {
+          emoji: '🅿️',
+          question: 'Van-e parkolási lehetőség?',
+          answer: 'Igen, van egy saját, zárt garázs, ahol biztonságosan tárolhatod az autódat a tartózkodás alatt.'
+        },
+        {
+          emoji: '🍳',
+          question: 'Milyen konyhai felszerelés áll rendelkezésre?',
+          answer: 'A konyha teljesen felszerelt: sütő, főzőlap, hűtő, mikró, kávéfőző, vízforraló, kenyérpirító és minden szükséges eszköz a főzéshez.'
+        },
+        {
+          emoji: '👥',
+          question: 'Hány fő szállása biztosított?',
+          answer: 'A vendégház kényelmesen elszállásol 4-6 főt. Van egy franciaágy és további hálóhelyek is rendelkezésre állnak.'
+        },
+        {
+          emoji: '📶',
+          question: 'Van-e WiFi és TV?',
+          answer: 'Igen, ingyenes WiFi és Smart TV is van Netflix, Disney+, HBO Max és egyéb streaming szolgáltatásokkal.'
+        },
+        {
+          emoji: '🥾',
+          question: 'Milyen túrázási lehetőségek vannak a környéken?',
+          answer: 'A környék tele van erdei túraútvonalakkal és kerékpárutakkal. Elektromos kerékpárokat is biztosítunk a környék felfedezéséhez.'
+        }
+      ]
+    },
+    footer: {
+      name: 'Szuper Vendégház',
+      description: 'Fedezd fel a tökéletes kikapcsolódást a természet ölelésében, ahol a modern kényelem találkozik a rusztikus bájjal.',
+      contactTitle: 'Kapcsolat',
+      linksTitle: 'Hasznos linkek',
+      links: {
+        booking: 'Foglalás',
+        faq: 'Gyakori kérdések',
+        gallery: 'Galéria',
+        contact: 'Kapcsolat'
+      },
+      socialLabels: {
+        facebook: 'Facebook',
+        instagram: 'Instagram',
+        youtube: 'YouTube',
+        tripadvisor: 'TripAdvisor'
+      },
+      legal: {
+        privacy: 'Adatvédelem',
+        terms: 'Felhasználási feltételek',
+        conditions: 'ÁSZF'
+      },
+      copyright: '© 2024 Szuper Vendégház. Minden jog fenntartva.'
     }
   },
   en: {
@@ -183,6 +257,80 @@ const translations = {
           avatar: null
         }
       ]
+    },
+    faq: {
+      kicker: 'Frequently Asked Questions',
+      title: 'Got questions? Here are answers!',
+      subtitle: 'Everything you need to know before booking and staying',
+      contactText: 'Can\'t find the answer? Contact us!',
+      contactLabel: 'Send us a message',
+      contactHref: 'mailto:info@guesthouse.com',
+      items: [
+        {
+          emoji: '📅',
+          question: 'How can I book?',
+          answer: 'You can book by phone or email. Contact us with confidence, and we\'ll help you choose the most suitable time for you.'
+        },
+        {
+          emoji: '🕐',
+          question: 'What are the check-in and check-out times?',
+          answer: 'Check-in from 3:00 PM, check-out until 11:00 AM. If you need different times, please coordinate with us in advance - we try to be flexible with requests.'
+        },
+        {
+          emoji: '🐕',
+          question: 'Can I bring a pet?',
+          answer: 'Yes, pets are welcome! Please let us know in advance that you\'re arriving with your four-legged companion, and ensure they don\'t damage the furniture.'
+        },
+        {
+          emoji: '🅿️',
+          question: 'Is there parking available?',
+          answer: 'Yes, there is a private, closed garage where you can safely store your car during your stay.'
+        },
+        {
+          emoji: '🍳',
+          question: 'What kitchen equipment is available?',
+          answer: 'The kitchen is fully equipped: oven, stove, fridge, microwave, coffee maker, kettle, toaster, and all necessary cooking utensils.'
+        },
+        {
+          emoji: '👥',
+          question: 'How many people can stay?',
+          answer: 'The guesthouse comfortably accommodates 4-6 people. There is a French bed and additional sleeping arrangements available.'
+        },
+        {
+          emoji: '📶',
+          question: 'Is there WiFi and TV?',
+          answer: 'Yes, there is free WiFi and a Smart TV with Netflix, Disney+, HBO Max, and other streaming services.'
+        },
+        {
+          emoji: '🥾',
+          question: 'What hiking opportunities are there nearby?',
+          answer: 'The area is full of forest hiking trails and bike paths. We also provide electric bicycles for exploring the surroundings.'
+        }
+      ]
+    },
+    footer: {
+      name: 'Super Guesthouse',
+      description: 'Discover the perfect getaway in nature\'s embrace, where modern comfort meets rustic charm.',
+      contactTitle: 'Contact',
+      linksTitle: 'Useful Links',
+      links: {
+        booking: 'Booking',
+        faq: 'FAQ',
+        gallery: 'Gallery',
+        contact: 'Contact'
+      },
+      socialLabels: {
+        facebook: 'Facebook',
+        instagram: 'Instagram',
+        youtube: 'YouTube',
+        tripadvisor: 'TripAdvisor'
+      },
+      legal: {
+        privacy: 'Privacy Policy',
+        terms: 'Terms of Use',
+        conditions: 'Terms & Conditions'
+      },
+      copyright: '© 2024 Super Guesthouse. All rights reserved.'
     }
   },
   de: {
@@ -276,6 +424,80 @@ const translations = {
           avatar: null
         }
       ]
+    },
+    faq: {
+      kicker: 'Häufig gestellte Fragen',
+      title: 'Haben Sie Fragen? Hier sind die Antworten!',
+      subtitle: 'Alles, was Sie vor der Buchung und dem Aufenthalt wissen müssen',
+      contactText: 'Finden Sie keine Antwort? Kontaktieren Sie uns!',
+      contactLabel: 'Schreiben Sie uns',
+      contactHref: 'mailto:info@gaestehaus.de',
+      items: [
+        {
+          emoji: '📅',
+          question: 'Wie kann ich buchen?',
+          answer: 'Sie können telefonisch oder per E-Mail buchen. Kontaktieren Sie uns vertrauensvoll, und wir helfen Ihnen, die passendste Zeit für Sie zu wählen.'
+        },
+        {
+          emoji: '🕐',
+          question: 'Wann ist Check-in und Check-out?',
+          answer: 'Check-in ab 15:00 Uhr, Check-out bis 11:00 Uhr. Wenn Sie andere Zeiten benötigen, stimmen Sie dies bitte im Voraus mit uns ab - wir versuchen flexibel auf Anfragen zu reagieren.'
+        },
+        {
+          emoji: '🐕',
+          question: 'Kann ich ein Haustier mitbringen?',
+          answer: 'Ja, Haustiere sind herzlich willkommen! Bitte teilen Sie uns im Voraus mit, dass Sie mit Ihrem vierbeinigen Begleiter anreisen, und stellen Sie sicher, dass die Möbel nicht beschädigt werden.'
+        },
+        {
+          emoji: '🅿️',
+          question: 'Gibt es Parkmöglichkeiten?',
+          answer: 'Ja, es gibt eine private, geschlossene Garage, in der Sie Ihr Auto während Ihres Aufenthalts sicher abstellen können.'
+        },
+        {
+          emoji: '🍳',
+          question: 'Welche Küchenausstattung ist verfügbar?',
+          answer: 'Die Küche ist komplett ausgestattet: Backofen, Herd, Kühlschrank, Mikrowelle, Kaffeemaschine, Wasserkocher, Toaster und alle notwendigen Kochutensilien.'
+        },
+        {
+          emoji: '👥',
+          question: 'Wie viele Personen können übernachten?',
+          answer: 'Das Gästehaus bietet bequem Platz für 4-6 Personen. Es gibt ein französisches Bett und zusätzliche Schlafgelegenheiten.'
+        },
+        {
+          emoji: '📶',
+          question: 'Gibt es WiFi und TV?',
+          answer: 'Ja, es gibt kostenloses WiFi und einen Smart TV mit Netflix, Disney+, HBO Max und anderen Streaming-Diensten.'
+        },
+        {
+          emoji: '🥾',
+          question: 'Welche Wandermöglichkeiten gibt es in der Nähe?',
+          answer: 'Die Gegend ist voll von Waldwanderwegen und Radwegen. Wir stellen auch Elektrofahrräder zur Erkundung der Umgebung zur Verfügung.'
+        }
+      ]
+    },
+    footer: {
+      name: 'Super Gästehaus',
+      description: 'Entdecken Sie den perfekten Rückzugsort in der Umarmung der Natur, wo moderner Komfort auf rustikalen Charme trifft.',
+      contactTitle: 'Kontakt',
+      linksTitle: 'Nützliche Links',
+      links: {
+        booking: 'Buchung',
+        faq: 'FAQ',
+        gallery: 'Galerie',
+        contact: 'Kontakt'
+      },
+      socialLabels: {
+        facebook: 'Facebook',
+        instagram: 'Instagram',
+        youtube: 'YouTube',
+        tripadvisor: 'TripAdvisor'
+      },
+      legal: {
+        privacy: 'Datenschutz',
+        terms: 'Nutzungsbedingungen',
+        conditions: 'AGB'
+      },
+      copyright: '© 2024 Super Gästehaus. Alle Rechte vorbehalten.'
     }
   }
 };

@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import Intro from './components/Intro';
 import Features from './components/Features';
 import Reviews from './components/Reviews';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 import { LanguageProvider } from './context/LanguageContext';
 
 function AppContent() {
@@ -13,6 +15,8 @@ function AppContent() {
       <Intro />
       <Features />
       <Reviews />
+      <FAQ />
+      <Footer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Header() {
   const headerContent = content.header;
 
   return (
-    <div className="bg-surface text-ink shadow-sm backdrop-blur">
+    <div className="bg-surface-alt text-ink shadow-sm backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-4 text-center sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:text-left">
         <span className="text-xl font-semibold uppercase tracking-[0.18em]">
           {headerContent.name}

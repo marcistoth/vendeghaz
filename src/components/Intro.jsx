@@ -125,7 +125,7 @@ function Intro() {
   const startIndex = totalImages + currentIndex;
 
   return (
-    <section className="bg-surface py-16 md:py-24">
+    <section className="bg-surface-alt py-16 md:py-24">
       <div className="mx-auto max-w-6xl px-6">
         {/* Text Content */}
         <div className="mb-12 text-center">

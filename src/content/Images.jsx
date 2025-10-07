@@ -17,5 +17,8 @@ export const images = {
   },
   features: {
     background: featuresImage
+  },
+  faq: {
+    background: heroImage
   }
 };
